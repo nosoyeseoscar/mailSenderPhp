@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: whitesmoke;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.form-styles {
+    margin: 20px;
+    padding: 15px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 10px solid cornflowerblue;
+
+}
+
+.form-styles>h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-styles input {
+    border: 1px solid rgb(194, 192, 192);
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+.input-group {
+    margin: 10px 5px 10px 5px;
+}
+
+.input-group * {
+    width: 100%;
+}
+
+.input-group>label {
+    margin-top: 15px;
+}
+
+.input-group>textarea {
+    height: 50px;
+    border: 1px solid rgb(194, 192, 192);
+}
+
+.button-container {
+    margin: 10px 5px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.button-container>button {
+    padding: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(160, 236, 236);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.button-container>button:hover {
+    background-color: aqua;
+}
+
+.contact-info {
+    padding: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact-info>.info>span {
+    margin-bottom: 20px;
+}
+
+.alert {
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.danger {
+    background-color: rgb(235, 20, 20);
+}
+
+.success {
+    background-color: green;
+}
